@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Campus360 — Events</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <nav class="topbar">
+    <div class="brand">Campus360</div>
+    <div class="nav-links">
+      <span id="welcomeName"></span>
+      <a href="dashboard.html">Dashboard</a>
+      <a href="lostfound.html">Lost & Found</a>
+      <a href="index.html" id="logout">Logout</a>
+    </div>
+  </nav>
+
+  <main class="container">
+    <section class="card">
+      <h3>Upcoming Events</h3>
+      <ul id="eventsList" class="list"></ul>
+
+      <h4>Add Event</h4>
+      <div class="form">
+        <input id="eventTitle" placeholder="Event title" />
+        <input id="eventDate" type="date" />
+        <input id="eventClub" placeholder="Club (optional)" />
+        <div class="row">
+          <button id="addEventBtn">Add Event</button>
+          <button id="loadSampleEvents" class="secondary">Reload Sample</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="js/auth.js"></script>
+  <script src="js/events.js"></script>
+</body>
+</html>
