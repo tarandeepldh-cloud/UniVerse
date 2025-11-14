@@ -1,1 +1,10 @@
+{
+  "semesters": [
+    {
+      "name": "Semester 3",
+      "subjects": ["Mathematics", "Strength of Materials", "Survey", "Engineering Graphics"],
+      "scores": [72, 81, 66, 89]
+    }
+  ]
+}
 
